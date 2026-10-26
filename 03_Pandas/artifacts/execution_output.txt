@@ -1,0 +1,59 @@
+PS C:\Users\dishi\Desktop\AI-Portfolio> python 03_Pandas/pandas_fundamentals.py
+First rows:
+   Employee Department  Experience  Salary
+0     Asha         QA           5   80000
+1     Ravi       Data           3   65000
+2    Meera         QA           8   95000
+3    Kabir         ML           2   55000
+4     Neha       Data           6   85000
+
+Shape: (5, 4)
+
+Data types:
+ Employee        str
+Department      str
+Experience    int64
+Salary        int64
+dtype: object
+
+Summary:
+        Experience        Salary
+count    5.000000      5.000000
+mean     4.800000  76000.000000
+std      2.387467  15968.719423
+min      2.000000  55000.000000
+25%      3.000000  65000.000000
+50%      5.000000  80000.000000
+75%      6.000000  85000.000000
+max      8.000000  95000.000000
+
+Experience >= 5:
+   Employee Department  Experience  Salary
+0     Asha         QA           5   80000
+2    Meera         QA           8   95000
+4     Neha       Data           6   85000
+
+Department summary:
+             Average_Salary  Employee_Count
+Department                                
+Data               75000.0               2
+ML                 55000.0               1
+QA                 87500.0               2
+
+After filling missing salary:
+   Employee Department  Experience   Salary Experience_Level
+0     Asha         QA           5  80000.0           Senior
+1     Ravi       Data           3  82500.0           Junior
+2    Meera         QA           8  95000.0           Senior
+3    Kabir         ML           2  55000.0           Junior
+4     Neha       Data           6  85000.0           Senior
+
+Duplicate rows: 0
+
+Encoded departments:
+    Data  ML  QA
+0     0   0   1
+1     1   0   0
+2     0   0   1
+3     0   1   0
+4     1   0   0

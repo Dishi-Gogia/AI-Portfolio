@@ -1,0 +1,9 @@
+PS C:\Users\dishi\Desktop\AI-Portfolio> python 01_Python/python_fundamentals.py
+Machine Learning 3 0.85
+Strong performance
+Average: 83.75
+Squares: [1, 4, 9, 16, 25]
+Python: Practiced
+NumPy: Practiced
+Pandas: Practiced
+Machine Learning: In progress

@@ -1,0 +1,27 @@
+PS C:\Users\dishi\Desktop\AI-Portfolio> python 02_NumPy/numpy_fundamentals.py
+Array: [10 20 30 40 50]
+Shape: (5,)
+Dimensions: 1
+
+Matrix:
+ [[1 2 3]
+ [4 5 6]]
+Transpose:
+ [[1 4]
+ [2 5]
+ [3 6]]
+
+Values greater than 15: [25 40 18]
+Classified values: ['Low' 'High' 'Low' 'High' 'Low']
+
+Mean: 20.6
+Median: 18.0
+Standard deviation: 11.271202242884296
+Minimum index: 2
+Maximum index: 3
+
+Unique values: (array([1, 2, 3]), array([1, 2, 3]))
+
+Normalized values: [0.125   0.53125 0.      1.      0.3125 ]
+
+Random values: [52 93 15 72 61]
