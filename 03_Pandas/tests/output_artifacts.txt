@@ -1,0 +1,12 @@
+PS C:\Users\dishi\Desktop\AI-Portfolio> python -m unittest discover -s 03_Pandas/tests -v
+test_dataframe_shape (test_pandas_fundamentals.TestPandasFundamentals.test_dataframe_shape) ... ok
+test_derived_experience_level (test_pandas_fundamentals.TestPandasFundamentals.test_derived_experience_level) ... ok
+test_duplicate_detection (test_pandas_fundamentals.TestPandasFundamentals.test_duplicate_detection) ... ok
+test_fill_missing_values (test_pandas_fundamentals.TestPandasFundamentals.test_fill_missing_values) ... ok
+test_filter_experienced_employees (test_pandas_fundamentals.TestPandasFundamentals.test_filter_experienced_employees) ... ok
+test_groupby_aggregation (test_pandas_fundamentals.TestPandasFundamentals.test_groupby_aggregation) ... ok
+test_one_hot_encoding (test_pandas_fundamentals.TestPandasFundamentals.test_one_hot_encoding) ... ok
+test_select_column (test_pandas_fundamentals.TestPandasFundamentals.test_select_column) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.047s

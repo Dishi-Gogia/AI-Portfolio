@@ -1,0 +1,38 @@
+PS C:\Users\dishi\Desktop\AI-Portfolio> python -m unittest discover -s 01_Python/tests -v
+Machine Learning 3 0.85
+Strong performance
+Average: 83.75
+Squares: [1, 4, 9, 16, 25]
+Python: Practiced
+NumPy: Practiced
+Pandas: Practiced
+Machine Learning: In progress
+test_calculate_average (test_python_fundamentals.TestPythonFundamentals.test_calculate_average)
+Average of multiple numbers should be calculated correctly. ... ok
+test_calculate_average_decimal_values (test_python_fundamentals.TestPythonFundamentals.test_calculate_average_decimal_values)
+Average should support decimal values. ... ok
+test_calculate_average_empty_list (test_python_fundamentals.TestPythonFundamentals.test_calculate_average_empty_list)
+An empty list should return zero. ... ok
+test_calculate_average_single_value (test_python_fundamentals.TestPythonFundamentals.test_calculate_average_single_value)
+Average of a single value should equal that value. ... ok
+test_dictionary_iteration (test_python_fundamentals.TestPythonFundamentals.test_dictionary_iteration)
+A dictionary should preserve the expected topic statuses. ... ok
+test_list_comprehension_example (test_python_fundamentals.TestPythonFundamentals.test_list_comprehension_example)
+Squaring numbers should produce the expected values. ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+OK
+PS C:\Users\dishi\Desktop\AI-Portfolio> python -m unittest discover -s 02_NumPy/tests -v
+test_array_shape_and_dimensions (test_numpy_fundamentals.TestNumPyFundamentals.test_array_shape_and_dimensions) ... ok
+test_filter_values (test_numpy_fundamentals.TestNumPyFundamentals.test_filter_values) ... ok
+test_matrix_reshape (test_numpy_fundamentals.TestNumPyFundamentals.test_matrix_reshape) ... ok
+test_matrix_transpose (test_numpy_fundamentals.TestNumPyFundamentals.test_matrix_transpose) ... ok
+test_mean_and_median (test_numpy_fundamentals.TestNumPyFundamentals.test_mean_and_median) ... ok
+test_min_max_normalization (test_numpy_fundamentals.TestNumPyFundamentals.test_min_max_normalization) ... ok
+test_minimum_and_maximum_indices (test_numpy_fundamentals.TestNumPyFundamentals.test_minimum_and_maximum_indices) ... ok
+test_unique_values_and_counts (test_numpy_fundamentals.TestNumPyFundamentals.test_unique_values_and_counts) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.141s
